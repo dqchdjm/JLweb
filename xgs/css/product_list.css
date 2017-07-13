@@ -1,0 +1,46 @@
+
+#main{
+	overflow: hidden;
+}
+#main .w .filter{
+	background-color: #EAEAEA;
+	margin-top: 10px
+}
+#main .w .filter ul{
+	padding: 10px;
+	overflow: hidden;
+}
+#main .w .filter ul li {
+	float: left;
+	padding: 5px 15px;
+	border: 1px solid #C7C7C7;
+	font-size: 13px;
+}
+#main .w .filter ul li:hover{
+	background-color: #C7C7C7;
+}
+#main .w .goods_list ul{
+	width: 100%;
+	overflow:hidden;
+}
+img{
+	width: 290px;
+}
+#main .w .goods_list ul li{
+	position: relative;
+    width:290px;
+    margin: 15px 0 0 5px;
+	float: left;
+    background: #fff;
+}
+#main .w .goods_list ul li p.tit a{
+    color: #444;
+    font-size: 13px;
+}
+#main .w .goods_list ul li p.tit a:hover{
+	color: #008842;
+}
+#main .w .goods_list ul li p.money{
+	color: red;
+	padding-left: 5px;
+}
