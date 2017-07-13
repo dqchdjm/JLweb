@@ -1,0 +1,306 @@
+#center{
+        width: 1220px;
+        margin: 0 auto;
+    }
+    .first{
+        width: 100%;
+        height: 55px;
+        margin-top: 20px;
+        background-repeat: repeat-x;
+        background-position: center;
+    }
+    .first1{
+        color: #FB5F3C;
+    }
+    .first2{
+        color: #007F4D;
+    }
+     .first3{
+        color: #C5CC46;
+    }
+     h3{
+        display: inline;
+        padding: 0 50px;
+        font-weight: 400;
+        font-size: 26px;
+    }
+    #entry_1
+    {
+        width: 1220px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+   #entry_1 .entry_1_left{
+    margin: 1px;
+    float: left;
+    height: 463px;
+    width: 275px;
+   }
+   #entry_1 .entry_1_right{
+        float: right;
+        height: 463px;
+        width: 925px;
+   }
+   #entry_1 .entry_1_right ul{
+    
+   }
+   #entry_1 .entry_1_right ul li{
+    float: left;
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+   }
+   #entry_1 .entry_1_right ul li.wide{
+    width: 461px;
+   }
+
+    #tit
+    {
+        position:absolute;
+        width:140px;
+        height: 170px;
+    }
+
+    .li1{
+        background-color:rgba(217,204,98,0.8);
+    }
+    .li2{
+        background-color:rgba(89,208,125,0.8);
+    }
+    .li3{
+        background-color:rgba(126,89,68,0.8);
+    }
+    .li4{
+        background-color:rgba(213,135,23,0.8);
+    }   
+    .li5{
+        background-color:rgba(83,75,93,0.8);
+    }
+    .li6{
+        background-color:rgba(59,131,140,0.8);
+    }
+    .li7{
+        background-color:rgba(100,38,99,0.8);
+    }
+    #tit .neirong
+    {
+        margin: 30px    auto;
+        width:100px;
+        height: 129px;
+    }
+    #tit .neirong h4{
+    overflow: hidden;
+    height: 40px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-family: fzzhengheis-el-gbregular;
+    font-weight: 400;
+    }
+    #tit a{
+        color: #fff;
+    }
+ 
+    #entry_2
+    {
+        width: 1220px;
+        height: 500px;
+    }
+    #a_left
+    {
+
+        background-color: #fff;
+        float: left;
+        width: 600px;
+        height: 523px;
+    }
+     .nuv
+    {
+        width: 600px;
+        height: 58px;
+        background-color: #984475;
+    }
+     .nuv .nuv_a
+    {
+        float: left;
+        font-size: 22px;
+        color: #fff;
+        height: 26px;
+        font-weight: 400;
+        max-width: 100px;
+        margin: 10px 10px 0 20px;
+    }
+    .ico_a
+    {
+        background-image: url(../images/pt_qrcode@1x.png);
+        width: 20px;height: 20px;
+        float: left;
+         margin: 15px 10px 0 0;
+    }
+     .btn{
+        float: right;
+         margin: 15px 20px 0 0;
+    }
+     .btntxt
+    {
+        display: inline-block;
+        height: 24px;
+        font-size: 15px;
+        line-height: 24px;
+        padding: 0 10px;
+        border: 1px solid #C187AF;
+        color: #fff;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        background-color: rgba(255,255,255,0.2);
+        overflow: hidden;
+    }
+     .yifurig
+    {
+        float: left;
+        width: 183px;
+        height: 260px;
+        overflow: hidden;
+        background-color: #f7f7f7;
+        margin: 30px 10px 0 1px;
+    }
+    .iet
+    {
+        float: left;
+        width: 396px;
+        height: 275px;
+        position: relative;
+        overflow: hidden;
+    }
+     .iet .iet1
+    {
+        display: block;
+        position: relative;
+        width: 188px;
+        height: 130px;
+        margin: 5px 10px 0 0;
+        
+    }
+    .fl{
+        float: left;
+    }
+    .ri{
+        float: right;
+    }
+     .iet .iet1 .pt_bi_tit
+    {
+        color: #974676;
+        font-size: 14px;
+        overflow: hidden;
+        z-index: 1;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    } 
+     .iet .iet1 .pt_bi_promo
+    {   
+       position: absolute;
+        top: 50px;
+        left: 25px;
+        font-size: 12px;
+        color: #666;
+        max-width: 50px;
+        z-index: 1;
+    }
+     .iet .iet1 .pt_bi_img{
+        position: absolute;
+        bottom: 10px;
+        right: 5px;
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: #f7f7f7;
+    }
+    #a_right
+    {
+        background-color: #fff;
+        float: right;
+        width: 600px;
+        height: 523px;
+    }
+    #a_botton
+    {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        height: 140px;
+    }
+    #a_botton a
+    {
+        display: block;
+        width: 193px;height: 130px;
+        float: left;
+        margin-right: 10px;
+    }
+    #ul{
+        float: left;
+
+    }
+    #ul li{
+        color: #DEDFE0;
+        float: left;
+        margin-right:19px;
+    }
+    #list{
+        position: fixed;
+        display: block;
+        left: 20px;
+        top: 30%;
+        z-index: 100;
+        background-color:#918888;
+    }
+    #list ul{
+
+    }
+    #list ul li{
+        width: 34px;height: 45px;
+        border-bottom: 1px solid #B1AAAA;
+        font-size: 14px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    #list ul li a{
+        color: #fff;
+    }
+    .no{
+        position: relative;
+        border-bottom: 1px solid #d70b1c;
+        margin-bottom: -1px;
+        border-color: #d70b1c;
+        background-color: #d70b1c;
+    }
+    #list .lift_btn{
+        overflow: hidden;
+        display: block;
+        width: 24px;
+        padding: 10px 5px;
+        line-height: 14px;
+        text-align: center;
+        color: #fefefe;
+    }
+        .list_no{
+            background-color: #D70B1C;
+        }
+        .move{
+            margin-left: 115px;
+        }
+        #ret{
+            overflow: hidden;
+            display: block;
+            width: 24px;
+            padding: 10px 5px;
+            line-height: 14px;
+            font-size: 12px;
+            text-align: center;
+            color: #fefefe;
+            cursor:pointer;
+        }
