@@ -62,7 +62,9 @@ div.ani{
     width:80px;
     height: 80px;
     border-radius: 40px;
+    border: 1px solid #fff;
     background:#fff url('../images/hgf.jpg') no-repeat center center/100%;
+    background-position: 0 -8px;
     position: absolute;
     top:10px;
     left: 10px;
@@ -94,6 +96,7 @@ div.ani{
 .page2 .skill{
     margin-top: 20px;
 }
+
 .page2 .skill p:nth-child(1){
     margin-left: 6%;
     background: #4D7480;
@@ -121,6 +124,9 @@ div.ani{
    line-height: 30px;
    padding-top: 10px;
 }
+.page2 div:nth-child(4) p:nth-child(1) {
+     width: 200px;
+}
 .page2 div:nth-child(5) p:nth-child(1){
         width: 200px;
 }
@@ -141,13 +147,20 @@ div.ani{
 .page2 .skill:nth-child(4) .jdt{
     width:60%;
 }
+.page4 strong{
+    float: left;
+    margin-left: 5%;
+    color:#fff;
+
+}
 .page4 a{
     float: left;
     margin-left: 5%;
-    color:#0B9EFB;
+    color:#fff;
 }
 .page4 div{
     width: 90%;
+    overflow: hidden;
     margin: 0 auto;
 
 }
@@ -156,12 +169,29 @@ div.ani{
     text-indent: 15px;
     clear: both;
 }
-.page5 p,.page3>div p:nth-child(2){
+.page4 ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+.page4 ul li{
+    float: left;margin-left: 10px;
+}
+.page4 ul li img{
+    width: 200px;
+}
+.page5 p,.page3>div {
     width: 90%;
     text-align: left;
     text-indent: 15px;
     margin: 0 auto;
 }
+.page5 p,.page3>div p span{
+    margin-left:5%;
+    color: #eee;
+}
 .page5 p{
+    margin-top: 20px;
+}
+.mar{
     margin-top: 20px;
 }
