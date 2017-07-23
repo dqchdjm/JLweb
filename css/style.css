@@ -170,14 +170,17 @@ div.ani{
     clear: both;
 }
 .page4 ul{
-    overflow: hidden;
     list-style-type: none;
+    width:55%; overflow-y:scroll; border:1px solid;
+    height: 344px;
 }
 .page4 ul li{
     float: left;margin-left: 10px;
+    width: 200px;
 }
 .page4 ul li img{
     width: 200px;
+    height: 344px;
 }
 .page5 p,.page3>div {
     width: 90%;
