@@ -17,7 +17,7 @@ window.onload=function()
 		}
 		/*
 		3. 设定鼠标的滑动事件 
-		*/ 
+		*/  
 		specImg.onmousemove = function(event){
 			var ev = event || window.event;
 			// xxxxx

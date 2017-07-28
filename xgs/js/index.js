@@ -2,7 +2,6 @@
 window.onload=function()
 {
 //右侧滚动栏事件
-	
 // ---------------大广告------------大广告-----------------大广告----------------------------------------------
 		var box=$$("#fs_col2");
 		var dir_l=$$(".dir")[0];
@@ -26,7 +25,7 @@ for (var i = 0; i < fsList.length; i++) {
 };
 							//计时器切换图片
 var indexBig=0;
-setInterval(function()
+var timer=setInterval(function()
 {
 	indexBig ++;
 	indexBig %= images.length;
@@ -38,6 +37,7 @@ setInterval(function()
 //方向显示与隐藏
 box.onmouseover=function()
 {
+	// clearInterval(timer);
 	dir_l.style.display="block";
 	dir_r.style.display="block";
 }
@@ -46,15 +46,36 @@ box.onmouseout=function()
 	dir_l.style.display="none";
 	dir_r.style.display="none";
 }
+var indexs=0;
 dir_l.onmouseover=function()
 {
-	dir_l.style.backgroundColor="rgba(0,0,0,0.6)";
+		dir_l.style.backgroundColor="rgba(0,0,0,0.6)";
+	if (indexs>0) {
+		indexs--;
+		console.log(indexs)
+		box.style.backgroundImage="url("+images[indexs]+")";
+	};
+	
+	
 }
 dir_l.onmouseout=function()
 {
 	dir_l.style.backgroundColor="rgba(0,0,0,0.1)";
 }
-
+dir_l.onclick=function(){
+	if (indexs>0) {
+		indexs--;
+		console.log(indexs)
+		box.style.backgroundImage="url("+images[indexs]+")";
+	};
+}
+dir_r.onclick=function(){
+	if (indexs<images.length) {
+		indexs++;
+		console.log(indexs)
+		box.style.backgroundImage="url("+images[indexs]+")";
+	};
+}
 dir_r.onmouseover=function()
 {
 	dir_r.style.backgroundColor="rgba(0,0,0,0.6)";
@@ -68,6 +89,7 @@ dir_r.onmouseout=function()
 	var seckillLeft=$$(".seckill-box-left")[0];
 	var seckillRight=$$(".seckill-box-right")[0];
 	var skul=$$(".sk_list_wrapper")[0].children[0];
+
 	seckillLeft.onclick=function()//ul左移动
 	{
 		anim(skul,{"left":-1005})
@@ -109,22 +131,6 @@ for (var i = 0; i < topList.length; i++) {
 	}
 };
 
-
-
-//图片移动
-for (var i = 0; i < img.length; i++) {
-	img[i].index=i;
-	img[i].onmouseover=function()
-	{
-		img[this.index].style.marginLeft="-10px";
-	}
-}
-for (var i = 0; i < img.length; i++) {
-	img[i].index=i;
-	img[i].onmouseout=function()
-	{
-		img[this.index].style.marginLeft=0;
-	}
-	}		
+	
 }
 
